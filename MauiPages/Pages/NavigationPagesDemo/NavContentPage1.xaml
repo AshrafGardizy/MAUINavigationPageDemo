@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiPages.Pages.NavigationPagesDemo.NavContentPage1"
+             BackgroundColor="LightPink"
+             Title="NavContentPage1">
+    <VerticalStackLayout Spacing="20" Margin="10">
+        <Label 
+            Text="Navigation Page1"
+            FontSize="30"
+            BackgroundColor="LightGoldenrodYellow"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center"
+            TextColor="Red"
+            />
+        <Button x:Name="BtnNext"
+                Clicked="BtnNext_Clicked"
+                Text="Go To Next Page"
+                TextColor="White"
+                BackgroundColor="Blue"
+                FontSize="20"
+                />
+    </VerticalStackLayout>
+</ContentPage>
